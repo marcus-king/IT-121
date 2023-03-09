@@ -1,1 +1,0 @@
-var myInfo = {"firstName":"Marcus", lastName:"King", "yearOfStudy":"first", "goal":"to find related work to help support my continued education."} 
