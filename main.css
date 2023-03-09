@@ -8,11 +8,12 @@ html {
     box-sizing: border-box;   
 }
 body {
-    width: fit-content;
-    min-width: 960px;
+    display: flex;
+    width: max-content;
     margin: auto;
+    flex-direction: column;
     justify-content: center;
-    padding: 64px;
+    padding: 32px;
     height: 100%;
 }
 body, h1, h2, h3, h4, h5, h6, a {
@@ -22,7 +23,8 @@ body, h1, h2, h3, h4, h5, h6, a {
     text-decoration: none;
 }
 .section {
-    width: fit-content;
+    
+    width: max-content;
     margin: auto;
     border-radius: 16px;
     background-color: #212121;
@@ -54,7 +56,7 @@ header {
     display: grid;
     width: 100%;
     grid-template-columns: 1fr 1fr;
-    padding: 64px;
+    padding: 32px;
     grid-gap: 2em; 
 }
 .card {
@@ -67,8 +69,9 @@ a .card:hover {
     background-color: #424242;
 }
 .dialog {
-    min-width: 450px;      
-    margin: 120px auto;    
+    width: 640px;
+    height: fit-content;      
+    margin: auto;    
     padding: 32px;
     border: 2px solid #424242;
     border-radius: 16px;
@@ -82,6 +85,7 @@ a .card:hover {
     font-style: bold;
     padding: 2em;
     border-radius: 4px;
+    height: fit-content;
 }
 
 .button {
@@ -122,9 +126,8 @@ a .card:hover {
     justify-content: center;    
 }
 footer {
-    padding:32px;        
     text-align: center;
-    height: fit-content;   
+    padding:32px;
 }
 
 
