@@ -1,14 +1,15 @@
 <!DOCTYPE html>
-<html>
+<html lang="en" id="main">
 <head>
 <title>Week 2 - Assignment - Pig Latin</title>
 <meta charset UTF-8 />
 <meta name="viewport" content="width=device_width, initial-scale=1.0" />
 <meta http-equiv="X-UA-Compatible" content="ie_edge" />
-<link rel="stylesheet" href="../main.css">
+<link rel="stylesheet" href="../css/main.css">
 </head>
 
 <body>
+    <p class=titlebar">Week 2 - Assignment - Pig Latin</p>
     <div class="dialog">
         <form>
             <input type="text" class="itext" id="inputText" tabindex="1" placeholder=" Enter text here..."></input><br><br>
@@ -19,11 +20,9 @@
             <div class="return" id="returnField"> </div>
        </form>
     </div>
-<footer>
-    <a class="button" type="button" href="../index.html">&#10094; Back </a><br><br>
-    <p><small>&copy; 2023 Marcus King ~ All rights reserved</small></p><br><br>
-</footer>
-<script src="./script.js">window.onload = function() {
-    document.getElementById("inputText").focus();</script>
+<script src="./script.js">
+    window.onload = function() {
+    document.getElementById("inputText").focus();
+</script>
 </body>
 </html>
